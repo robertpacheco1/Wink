@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164E3760ACEB379DCDC7C352 /* Pods_WinkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F1257721CE83013E31C1DE /* Pods_WinkUITests.framework */; };
+		20B498B4F74ACE32295DEB9D /* Pods_Wink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B25453D1D6921AB468EB55 /* Pods_Wink.framework */; };
+		311018C822DBB62F00975F31 /* SignInAppleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311018C722DBB62F00975F31 /* SignInAppleButtonView.swift */; };
+		311018CB22DBC33E00975F31 /* DarkModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311018CA22DBC33E00975F31 /* DarkModeManager.swift */; };
 		317F4BE122D82B7600D61DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BE022D82B7600D61DA3 /* AppDelegate.swift */; };
 		317F4BE322D82B7600D61DA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BE222D82B7600D61DA3 /* SceneDelegate.swift */; };
 		317F4BE622D82B7600D61DA3 /* Wink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BE422D82B7600D61DA3 /* Wink.xcdatamodeld */; };
@@ -16,6 +20,15 @@
 		317F4BF022D82B7C00D61DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317F4BEE22D82B7C00D61DA3 /* LaunchScreen.storyboard */; };
 		317F4BFB22D82B7D00D61DA3 /* WinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BFA22D82B7D00D61DA3 /* WinkTests.swift */; };
 		317F4C0622D82B7D00D61DA3 /* WinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4C0522D82B7D00D61DA3 /* WinkUITests.swift */; };
+		31C4F5D922D9401B006BEBCC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5D822D9401B006BEBCC /* CustomButton.swift */; };
+		31C4F5DB22D94028006BEBCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C4F5DA22D94028006BEBCC /* GoogleService-Info.plist */; };
+		31C4F5DD22D944CC006BEBCC /* CustomInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5DC22D944CC006BEBCC /* CustomInput.swift */; };
+		31C4F5DF22D949BF006BEBCC /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5DE22D949BF006BEBCC /* AuthenticationView.swift */; };
+		31C4F5E122D94E1D006BEBCC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5E022D94E1D006BEBCC /* Session.swift */; };
+		31C4F5E322D9591A006BEBCC /* InlineAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5E222D9591A006BEBCC /* InlineAlert.swift */; };
+		31C4F5E522D96B71006BEBCC /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5E422D96B71006BEBCC /* AppView.swift */; };
+		31DB7D2722DA63DA005498F3 /* SessionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB7D2622DA63DA005498F3 /* SessionInfo.swift */; };
+		C3049FBF01361154ACD33794 /* Pods_WinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBC50B6D85EDF4151A2B5C4 /* Pods_WinkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311018C722DBB62F00975F31 /* SignInAppleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAppleButtonView.swift; sourceTree = "<group>"; };
+		311018CA22DBC33E00975F31 /* DarkModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeManager.swift; sourceTree = "<group>"; };
 		317F4BDD22D82B7600D61DA3 /* Wink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317F4BE022D82B7600D61DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		317F4BE222D82B7600D61DA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +66,24 @@
 		317F4C0122D82B7D00D61DA3 /* WinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		317F4C0522D82B7D00D61DA3 /* WinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinkUITests.swift; sourceTree = "<group>"; };
 		317F4C0722D82B7D00D61DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C4F5D822D9401B006BEBCC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		31C4F5DA22D94028006BEBCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31C4F5DC22D944CC006BEBCC /* CustomInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInput.swift; sourceTree = "<group>"; };
+		31C4F5DE22D949BF006BEBCC /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		31C4F5E022D94E1D006BEBCC /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		31C4F5E222D9591A006BEBCC /* InlineAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineAlert.swift; sourceTree = "<group>"; };
+		31C4F5E422D96B71006BEBCC /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		31C4F5E622D9B9CB006BEBCC /* Wink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wink.entitlements; sourceTree = "<group>"; };
+		31DB7D2622DA63DA005498F3 /* SessionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionInfo.swift; sourceTree = "<group>"; };
+		356726FB6F9BE8060FE52CB9 /* Pods-Wink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wink.debug.xcconfig"; path = "Target Support Files/Pods-Wink/Pods-Wink.debug.xcconfig"; sourceTree = "<group>"; };
+		5576C88690FC5D7C6FBC4746 /* Pods-WinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkTests.release.xcconfig"; path = "Target Support Files/Pods-WinkTests/Pods-WinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F4EE0ED37F683FB7372E4A6 /* Pods-WinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkTests.debug.xcconfig"; path = "Target Support Files/Pods-WinkTests/Pods-WinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B26C82861F82FFDEE0988DF /* Pods-WinkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkUITests.release.xcconfig"; path = "Target Support Files/Pods-WinkUITests/Pods-WinkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BD0C13053A688B57DAEB6A9 /* Pods-WinkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkUITests.debug.xcconfig"; path = "Target Support Files/Pods-WinkUITests/Pods-WinkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBC50B6D85EDF4151A2B5C4 /* Pods_WinkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F1257721CE83013E31C1DE /* Pods_WinkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B25453D1D6921AB468EB55 /* Pods_Wink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90265E0E8CEF2AAF9F392B0 /* Pods-Wink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wink.release.xcconfig"; path = "Target Support Files/Pods-Wink/Pods-Wink.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B498B4F74ACE32295DEB9D /* Pods_Wink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3049FBF01361154ACD33794 /* Pods_WinkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +107,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164E3760ACEB379DCDC7C352 /* Pods_WinkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311018C922DBC28400975F31 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				317F4BE222D82B7600D61DA3 /* SceneDelegate.swift */,
+				317F4BE022D82B7600D61DA3 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		311018CC22DBC3DB00975F31 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				31C4F5D822D9401B006BEBCC /* CustomButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		311018CD22DBC56100975F31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31C4F5E422D96B71006BEBCC /* AppView.swift */,
+				31C4F5DE22D949BF006BEBCC /* AuthenticationView.swift */,
+				317F4BE722D82B7600D61DA3 /* ContentView.swift */,
+				311018C722DBB62F00975F31 /* SignInAppleButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		311018CE22DBCF2000975F31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31C4F5E622D9B9CB006BEBCC /* Wink.entitlements */,
+				317F4BE422D82B7600D61DA3 /* Wink.xcdatamodeld */,
+				31C4F5DA22D94028006BEBCC /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		317F4BD422D82B7600D61DA3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,8 @@
 				317F4BF922D82B7D00D61DA3 /* WinkTests */,
 				317F4C0422D82B7D00D61DA3 /* WinkUITests */,
 				317F4BDE22D82B7600D61DA3 /* Products */,
+				4E8DB0286EE1CF4C891270FE /* Pods */,
+				DB7BE806DFBC7EDE745AC11C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +177,18 @@
 		317F4BDF22D82B7600D61DA3 /* Wink */ = {
 			isa = PBXGroup;
 			children = (
-				317F4BE022D82B7600D61DA3 /* AppDelegate.swift */,
-				317F4BE222D82B7600D61DA3 /* SceneDelegate.swift */,
-				317F4BE722D82B7600D61DA3 /* ContentView.swift */,
+				311018CC22DBC3DB00975F31 /* Buttons */,
+				311018C922DBC28400975F31 /* Delegate */,
+				311018CD22DBC56100975F31 /* Views */,
+				31C4F5E222D9591A006BEBCC /* InlineAlert.swift */,
+				31C4F5DC22D944CC006BEBCC /* CustomInput.swift */,
+				311018CA22DBC33E00975F31 /* DarkModeManager.swift */,
+				31C4F5E022D94E1D006BEBCC /* Session.swift */,
+				31DB7D2622DA63DA005498F3 /* SessionInfo.swift */,
 				317F4BE922D82B7C00D61DA3 /* Assets.xcassets */,
 				317F4BEE22D82B7C00D61DA3 /* LaunchScreen.storyboard */,
 				317F4BF122D82B7C00D61DA3 /* Info.plist */,
-				317F4BE422D82B7600D61DA3 /* Wink.xcdatamodeld */,
+				311018CE22DBCF2000975F31 /* Resources */,
 				317F4BEB22D82B7C00D61DA3 /* Preview Content */,
 			);
 			path = Wink;
@@ -139,6 +220,29 @@
 			path = WinkUITests;
 			sourceTree = "<group>";
 		};
+		4E8DB0286EE1CF4C891270FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				356726FB6F9BE8060FE52CB9 /* Pods-Wink.debug.xcconfig */,
+				E90265E0E8CEF2AAF9F392B0 /* Pods-Wink.release.xcconfig */,
+				7F4EE0ED37F683FB7372E4A6 /* Pods-WinkTests.debug.xcconfig */,
+				5576C88690FC5D7C6FBC4746 /* Pods-WinkTests.release.xcconfig */,
+				8BD0C13053A688B57DAEB6A9 /* Pods-WinkUITests.debug.xcconfig */,
+				8B26C82861F82FFDEE0988DF /* Pods-WinkUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB7BE806DFBC7EDE745AC11C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7B25453D1D6921AB468EB55 /* Pods_Wink.framework */,
+				8EBC50B6D85EDF4151A2B5C4 /* Pods_WinkTests.framework */,
+				A9F1257721CE83013E31C1DE /* Pods_WinkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 317F4C0A22D82B7D00D61DA3 /* Build configuration list for PBXNativeTarget "Wink" */;
 			buildPhases = (
+				A8BF8D75FDFB4E2A61195334 /* [CP] Check Pods Manifest.lock */,
 				317F4BD922D82B7600D61DA3 /* Sources */,
 				317F4BDA22D82B7600D61DA3 /* Frameworks */,
 				317F4BDB22D82B7600D61DA3 /* Resources */,
+				3EFE4EC8BFBF1757DB8BBFF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 317F4C0D22D82B7D00D61DA3 /* Build configuration list for PBXNativeTarget "WinkTests" */;
 			buildPhases = (
+				96108B468A8CE243EC8EE244 /* [CP] Check Pods Manifest.lock */,
 				317F4BF222D82B7D00D61DA3 /* Sources */,
 				317F4BF322D82B7D00D61DA3 /* Frameworks */,
 				317F4BF422D82B7D00D61DA3 /* Resources */,
@@ -181,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 317F4C1022D82B7D00D61DA3 /* Build configuration list for PBXNativeTarget "WinkUITests" */;
 			buildPhases = (
+				44071BDFFDA59BE1C93B6C56 /* [CP] Check Pods Manifest.lock */,
 				317F4BFD22D82B7D00D61DA3 /* Sources */,
 				317F4BFE22D82B7D00D61DA3 /* Frameworks */,
 				317F4BFF22D82B7D00D61DA3 /* Resources */,
@@ -244,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				317F4BF022D82B7C00D61DA3 /* LaunchScreen.storyboard in Resources */,
+				31C4F5DB22D94028006BEBCC /* GoogleService-Info.plist in Resources */,
 				317F4BED22D82B7C00D61DA3 /* Preview Assets.xcassets in Resources */,
 				317F4BEA22D82B7C00D61DA3 /* Assets.xcassets in Resources */,
 			);
@@ -265,15 +374,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EFE4EC8BFBF1757DB8BBFF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wink/Pods-Wink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wink/Pods-Wink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wink/Pods-Wink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44071BDFFDA59BE1C93B6C56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96108B468A8CE243EC8EE244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BF8D75FDFB4E2A61195334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		317F4BD922D82B7600D61DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311018CB22DBC33E00975F31 /* DarkModeManager.swift in Sources */,
 				317F4BE122D82B7600D61DA3 /* AppDelegate.swift in Sources */,
 				317F4BE622D82B7600D61DA3 /* Wink.xcdatamodeld in Sources */,
 				317F4BE822D82B7600D61DA3 /* ContentView.swift in Sources */,
+				31C4F5E322D9591A006BEBCC /* InlineAlert.swift in Sources */,
+				31C4F5DF22D949BF006BEBCC /* AuthenticationView.swift in Sources */,
+				31C4F5E122D94E1D006BEBCC /* Session.swift in Sources */,
 				317F4BE322D82B7600D61DA3 /* SceneDelegate.swift in Sources */,
+				31C4F5D922D9401B006BEBCC /* CustomButton.swift in Sources */,
+				31C4F5E522D96B71006BEBCC /* AppView.swift in Sources */,
+				31DB7D2722DA63DA005498F3 /* SessionInfo.swift in Sources */,
+				311018C822DBB62F00975F31 /* SignInAppleButtonView.swift in Sources */,
+				31C4F5DD22D944CC006BEBCC /* CustomInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +640,10 @@
 		};
 		317F4C0B22D82B7D00D61DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356726FB6F9BE8060FE52CB9 /* Pods-Wink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wink/Wink.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Wink/Preview\\ Content";
 				DEVELOPMENT_TEAM = YK49G375R6;
@@ -456,8 +662,10 @@
 		};
 		317F4C0C22D82B7D00D61DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90265E0E8CEF2AAF9F392B0 /* Pods-Wink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wink/Wink.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Wink/Preview\\ Content";
 				DEVELOPMENT_TEAM = YK49G375R6;
@@ -476,6 +684,7 @@
 		};
 		317F4C0E22D82B7D00D61DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4EE0ED37F683FB7372E4A6 /* Pods-WinkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +706,7 @@
 		};
 		317F4C0F22D82B7D00D61DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5576C88690FC5D7C6FBC4746 /* Pods-WinkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +728,7 @@
 		};
 		317F4C1122D82B7D00D61DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD0C13053A688B57DAEB6A9 /* Pods-WinkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +749,7 @@
 		};
 		317F4C1222D82B7D00D61DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B26C82861F82FFDEE0988DF /* Pods-WinkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
