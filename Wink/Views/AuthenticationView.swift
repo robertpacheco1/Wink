@@ -34,7 +34,7 @@ struct SignUpView : View {
     var body: some View {
         VStack {
             
-            Text("Create Account").color(.blue)
+            Text("Create Account").foregroundColor(.blue)
                 .font(.title)
                 .padding(.horizontal)
             
@@ -47,7 +47,7 @@ struct SignUpView : View {
                         .modifier(InputModifier())
                         .padding()
                     
-                    Text("At least 8 characters required.").font(.footnote).color(Color.gray)
+                    Text("At least 8 characters required.").font(.footnote).foregroundColor(Color.gray)
                 }
             
             
@@ -72,7 +72,7 @@ struct SignUpView : View {
                 HStack(alignment: .center) {
                     Text("Have an account already?")
                         .font(.footnote)
-                        .color(.purple)
+                        .foregroundColor(.purple)
                     
                     NavigationLink(destination: SignInView()) {
                         Text("Sign In.").font(.footnote)
@@ -92,11 +92,6 @@ struct SignInView : View {
     @State var informationText = "Please Login!"
     @State var isUser = false
     
-    private var suicaStack = VStack {
-        Text("Welcome!")
-            .font(.title)
-            .padding(5.0)
-    }
 
     @State var email: String = ""
     @State var password: String = ""
@@ -129,12 +124,19 @@ struct SignInView : View {
                 
                Spacer()
                 
+                
+                
+                
+               
+                
                 Text("Wink").font(.largeTitle).padding(.bottom)
                 
-                suicaStack
-                Text(informationText)
-                    .font(.footnote)
-               
+                
+                SpinnerView()
+                
+                Spacer()
+                
+                
                 
                
             }
@@ -189,7 +191,7 @@ struct SignInView : View {
                 HStack(alignment: .center) {
                     Text("Don't have an account?")
                         .font(.footnote)
-                        .color(.purple)
+                        .foregroundColor(.purple)
                     
                     NavigationLink(destination: SignUpView()) {
                         Text("Sign Up.").font(.footnote)

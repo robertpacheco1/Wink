@@ -19,7 +19,7 @@ struct CustomButton : View {
                 Spacer()
                 Text(label)
                     .fontWeight(.bold)
-                    .color(.white)
+                    .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                 Spacer()
             }

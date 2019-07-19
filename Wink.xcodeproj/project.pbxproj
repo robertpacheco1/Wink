@@ -11,6 +11,7 @@
 		20B498B4F74ACE32295DEB9D /* Pods_Wink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B25453D1D6921AB468EB55 /* Pods_Wink.framework */; };
 		311018C822DBB62F00975F31 /* SignInAppleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311018C722DBB62F00975F31 /* SignInAppleButtonView.swift */; };
 		311018CB22DBC33E00975F31 /* DarkModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311018CA22DBC33E00975F31 /* DarkModeManager.swift */; };
+		313B508522E1512400AA3F4D /* FacebookReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B508422E1512400AA3F4D /* FacebookReactions.swift */; };
 		317F4BE122D82B7600D61DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BE022D82B7600D61DA3 /* AppDelegate.swift */; };
 		317F4BE322D82B7600D61DA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BE222D82B7600D61DA3 /* SceneDelegate.swift */; };
 		317F4BE622D82B7600D61DA3 /* Wink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BE422D82B7600D61DA3 /* Wink.xcdatamodeld */; };
@@ -20,6 +21,7 @@
 		317F4BF022D82B7C00D61DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317F4BEE22D82B7C00D61DA3 /* LaunchScreen.storyboard */; };
 		317F4BFB22D82B7D00D61DA3 /* WinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4BFA22D82B7D00D61DA3 /* WinkTests.swift */; };
 		317F4C0622D82B7D00D61DA3 /* WinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F4C0522D82B7D00D61DA3 /* WinkUITests.swift */; };
+		319C38BE22DC055800B96A74 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319C38BD22DC055800B96A74 /* Spinner.swift */; };
 		31C4F5D922D9401B006BEBCC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5D822D9401B006BEBCC /* CustomButton.swift */; };
 		31C4F5DB22D94028006BEBCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C4F5DA22D94028006BEBCC /* GoogleService-Info.plist */; };
 		31C4F5DD22D944CC006BEBCC /* CustomInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4F5DC22D944CC006BEBCC /* CustomInput.swift */; };
@@ -51,6 +53,7 @@
 /* Begin PBXFileReference section */
 		311018C722DBB62F00975F31 /* SignInAppleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAppleButtonView.swift; sourceTree = "<group>"; };
 		311018CA22DBC33E00975F31 /* DarkModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeManager.swift; sourceTree = "<group>"; };
+		313B508422E1512400AA3F4D /* FacebookReactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FacebookReactions.swift; path = ../../../../../../System/Volumes/Data/Users/robertpacheco/GitHub/Wink/Wink/Views/FacebookReactions.swift; sourceTree = "<group>"; };
 		317F4BDD22D82B7600D61DA3 /* Wink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317F4BE022D82B7600D61DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		317F4BE222D82B7600D61DA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 		317F4C0122D82B7D00D61DA3 /* WinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		317F4C0522D82B7D00D61DA3 /* WinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinkUITests.swift; sourceTree = "<group>"; };
 		317F4C0722D82B7D00D61DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319C38BD22DC055800B96A74 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		31C4F5D822D9401B006BEBCC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		31C4F5DA22D94028006BEBCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		31C4F5DC22D944CC006BEBCC /* CustomInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInput.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				31C4F5DE22D949BF006BEBCC /* AuthenticationView.swift */,
 				317F4BE722D82B7600D61DA3 /* ContentView.swift */,
 				311018C722DBB62F00975F31 /* SignInAppleButtonView.swift */,
+				313B508422E1512400AA3F4D /* FacebookReactions.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				311018C922DBC28400975F31 /* Delegate */,
 				311018CD22DBC56100975F31 /* Views */,
 				31C4F5E222D9591A006BEBCC /* InlineAlert.swift */,
+				319C38BD22DC055800B96A74 /* Spinner.swift */,
 				31C4F5DC22D944CC006BEBCC /* CustomInput.swift */,
 				311018CA22DBC33E00975F31 /* DarkModeManager.swift */,
 				31C4F5E022D94E1D006BEBCC /* Session.swift */,
@@ -468,6 +474,7 @@
 				311018CB22DBC33E00975F31 /* DarkModeManager.swift in Sources */,
 				317F4BE122D82B7600D61DA3 /* AppDelegate.swift in Sources */,
 				317F4BE622D82B7600D61DA3 /* Wink.xcdatamodeld in Sources */,
+				319C38BE22DC055800B96A74 /* Spinner.swift in Sources */,
 				317F4BE822D82B7600D61DA3 /* ContentView.swift in Sources */,
 				31C4F5E322D9591A006BEBCC /* InlineAlert.swift in Sources */,
 				31C4F5DF22D949BF006BEBCC /* AuthenticationView.swift in Sources */,
@@ -476,6 +483,7 @@
 				31C4F5D922D9401B006BEBCC /* CustomButton.swift in Sources */,
 				31C4F5E522D96B71006BEBCC /* AppView.swift in Sources */,
 				31DB7D2722DA63DA005498F3 /* SessionInfo.swift in Sources */,
+				313B508522E1512400AA3F4D /* FacebookReactions.swift in Sources */,
 				311018C822DBB62F00975F31 /* SignInAppleButtonView.swift in Sources */,
 				31C4F5DD22D944CC006BEBCC /* CustomInput.swift in Sources */,
 			);

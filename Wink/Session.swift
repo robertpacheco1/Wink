@@ -24,8 +24,8 @@ struct User {
 }
 
 class SessionStore : BindableObject {
-    var didChange = PassthroughSubject<SessionStore, Never>()
-    var session: User? { didSet { self.didChange.send(self) }}
+    var willChange = PassthroughSubject<SessionStore, Never>()
+    var session: User? { didSet { self.willChange.send(self) }}
     var handle: AuthStateDidChangeListenerHandle?
     
     init(session: User? = nil) {

@@ -10,18 +10,21 @@ import SwiftUI
 
 struct AppView: View {
     
+
+    
     @EnvironmentObject var session: SessionStore
     
     
     var body: some View {
         return NavigationView {
-            VStack {
-                
-                Text("Wink ;) ")
-                    .color(Color.white)
-                    .font(.largeTitle)
-                    .multilineTextAlignment(.center)
-                    .lineLimit(2)
+            VStack(alignment: .leading) {
+                Spacer()
+                SpinnerView()
+                Spacer()
+                FacebookReactions()
+                .offset(x: -130)
+
+                Spacer()
             
             }.navigationBarTitle(Text("Wink"), displayMode: .inline)
                 .navigationBarItems(leading: PresentationLink(destination: SessionInfo().environmentObject(session)) {
